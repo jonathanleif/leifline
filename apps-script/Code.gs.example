@@ -1,0 +1,108 @@
+/**
+ * Leifline form receiver for a spreadsheet-bound Google Apps Script.
+ * Copy the relevant parts into the existing Code.gs, then deploy a new web-app version.
+ * Expected deployment access: Anyone.
+ */
+
+const LEIFLINE = {
+  sheetName: 'Form responses', // Change if the existing response tab has another name.
+  parentOrigin: 'https://leifline.com',
+  max: { name: 100, place: 100, time: 30, account: 3000 }
+};
+
+function doPost(e) {
+  const p = (e && e.parameter) || {};
+  const nonce = safeText_(p.submissionNonce, 80);
+
+  try {
+    // Honeypot: acknowledge without writing so automated senders get no useful signal.
+    if (p.website) return response_({ type: 'leifline-submission', ok: true, nonce: nonce, caseId: 'LL-RECEIVED', queue: '—' });
+
+    const record = {
+      'Submitted': new Date(),
+      'Case ID': nextCaseId_(),
+      'Participant': required_(p.name, 'Participant', LEIFLINE.max.name),
+      'Incident type': required_(p.nature, 'Incident type', 200),
+      'Severity': required_(p.severity, 'Severity', 100),
+      'Place': required_(p.place, 'Place', LEIFLINE.max.place),
+      'Incident time': required_(p.time, 'Incident time', LEIFLINE.max.time),
+      'Participant account': required_(p.account, 'Participant account', LEIFLINE.max.account),
+      'Language': safeText_(p.language, 2),
+      'Nature code': safeText_(p.natureCode, 4),
+      'Severity code': safeText_(p.severityCode, 4),
+      'Classification': safeText_(p.classification, 100),
+      'Source': safeText_(p.source, 100)
+    };
+
+    if (p.acknowledged !== 'Yes') throw new Error('Acknowledgement is required.');
+    if (!/^N[1-6]$/.test(record['Nature code'])) throw new Error('Invalid nature code.');
+    if (!/^S[1-5]$/.test(record['Severity code'])) throw new Error('Invalid severity code.');
+
+    appendByHeader_(record);
+    const queue = String(Math.floor(Math.random() * 6) + 2);
+    return response_({ type: 'leifline-submission', ok: true, nonce: nonce, caseId: record['Case ID'], queue: queue });
+  } catch (error) {
+    console.error(error);
+    return response_({ type: 'leifline-submission', ok: false, nonce: nonce, error: 'The case could not be registered.' });
+  }
+}
+
+function doGet() {
+  return ContentService.createTextOutput('Leifline form receiver is operational.').setMimeType(ContentService.MimeType.TEXT);
+}
+
+function appendByHeader_(record) {
+  const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = spreadsheet.getSheetByName(LEIFLINE.sheetName) || spreadsheet.getActiveSheet();
+  const lastColumn = Math.max(sheet.getLastColumn(), 1);
+  let headers = sheet.getRange(1, 1, 1, lastColumn).getDisplayValues()[0];
+
+  if (!headers.some(Boolean)) {
+    headers = Object.keys(record);
+    sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
+  }
+
+  const row = headers.map(header => Object.prototype.hasOwnProperty.call(record, header) ? sheetSafe_(record[header]) : '');
+  sheet.appendRow(row);
+}
+
+function nextCaseId_() {
+  const lock = LockService.getScriptLock();
+  lock.waitLock(10000);
+  try {
+    const timezone = Session.getScriptTimeZone() || 'Europe/Stockholm';
+    const day = Utilities.formatDate(new Date(), timezone, 'yyyyMMdd');
+    const key = 'leifline-case-counter-' + day;
+    const properties = PropertiesService.getScriptProperties();
+    const next = Number(properties.getProperty(key) || '0') + 1;
+    properties.setProperty(key, String(next));
+    return 'LL-' + day.slice(0, 4) + '-' + day.slice(4) + '-' + String(next).padStart(3, '0');
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function required_(value, label, maxLength) {
+  const text = safeText_(value, maxLength);
+  if (!text) throw new Error(label + ' is required.');
+  return text;
+}
+
+function safeText_(value, maxLength) {
+  return String(value || '').trim().slice(0, maxLength);
+}
+
+function sheetSafe_(value) {
+  if (value instanceof Date) return value;
+  const text = String(value == null ? '' : value);
+  return /^[=+\-@]/.test(text) ? "'" + text : text;
+}
+
+function response_(payload) {
+  const json = JSON.stringify(payload).replace(/</g, '\\u003c');
+  return HtmlService.createHtmlOutput(
+    '<!doctype html><meta charset="utf-8"><script>' +
+    'window.parent.postMessage(' + json + ', ' + JSON.stringify(LEIFLINE.parentOrigin) + ');' +
+    '<\/script>'
+  ).setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
+}
