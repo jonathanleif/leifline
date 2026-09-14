@@ -1,0 +1,1064 @@
+{
+  "en": {
+    "meta": {
+      "lang": "en",
+      "title": "Leifline — Independent support and problem response",
+      "desc": "Independent guidance when a situation stops making sense. Stockholm, since 2019. Average time to answer: 4.1 seconds.",
+      "ogTitle": "Leifline — Problems rarely arrive with instructions.",
+      "url": "https://leifline.com/"
+    },
+    "nav": {
+      "services": "Services",
+      "method": "Method",
+      "cases": "Case files",
+      "press": "Press",
+      "submit": "Submit a case",
+      "about": "About",
+      "contact": "CONTACT"
+    },
+    "navShort": {
+      "services": "Services",
+      "method": "Method",
+      "cases": "Cases",
+      "press": "Press",
+      "submit": "Submit",
+      "about": "About",
+      "contact": "CONTACT"
+    },
+    "hero": {
+      "kicker": "EST. 2019 · STOCKHOLM · INDEPENDENT",
+      "h1": "Problems rarely arrive with instructions.",
+      "body": "Leifline provides calm, independent guidance when a situation stops making sense and the people around you have run out of explanations.",
+      "cta1": "CONTACT LEIFLINE",
+      "cta2": "READ CASE FILES",
+      "status": "LEIFLINE IS OPERATIONAL",
+      "avg": "AVERAGE TIME TO ANSWER: 4.1 S",
+      "conditions": "CONDITIONS: "
+    },
+    "load": {
+      "title": "OPERATIONAL LOAD · LIVE REGISTER",
+      "ongoing": "MATTERS CURRENTLY\nIN PROGRESS",
+      "closed": "MATTERS CLOSED\nTODAY",
+      "queue": "AWAITING\nASSESSMENT",
+      "since": "SINCE THE LAST\nMATTER WAS CLOSED",
+      "oldest": "DAYS, OLDEST\nOPEN MATTER",
+      "note": "UPDATED CONTINUOUSLY. FIGURES ARE UNAUDITED AND SHOULD NOT BE INTERPRETED. RESPONSE MEDIUM AVAILABILITY: 100.0%."
+    },
+    "svc": {
+      "label": "01 — WHAT WE HANDLE",
+      "h2": "Most matters reach Leifline after every reasonable explanation has already been attempted.",
+      "items": [
+        {
+          "code": "S/01",
+          "title": "Unexplained developments",
+          "body": "Something has happened. Nobody involved is able to say why, and the matter is not improving on its own."
+        },
+        {
+          "code": "S/02",
+          "title": "Disputed outcomes",
+          "body": "You believe you are right. The other party is unusually confident of the opposite. A finding is required."
+        },
+        {
+          "code": "S/03",
+          "title": "Decisions of the small hours",
+          "body": "Matters that feel manageable at 14:00 and unmanageable at 02:14. Leifline maintains full capacity at both times."
+        },
+        {
+          "code": "S/04",
+          "title": "Preventive assessment",
+          "body": "Before answering, sending, buying, resigning or celebrating, a preliminary assessment may be requested."
+        }
+      ],
+      "blocks": [
+        {
+          "title": "SCOPE",
+          "body": "Domestic, professional, romantic, vehicular, administrative and unclassifiable matters. No matter has yet been declined on the grounds of being too small."
+        },
+        {
+          "title": "WHAT WE DO NOT DO",
+          "body": "Therapy, legal representation, mediation or extended reasoning. Leifline issues findings. The finding is the service."
+        },
+        {
+          "title": "RESPONSE MEDIUM",
+          "body": "Proprietary. Leifline does not disclose the instrument used to answer and has never been required to. Availability during the last reporting period: 100.0%."
+        }
+      ]
+    },
+    "method": {
+      "label": "02 — THE METHOD",
+      "h2": "Every matter is handled in exactly the same way, regardless of how unusual the caller considers it to be.",
+      "intro": "The procedure below has not been revised since 2019. Proposals to shorten it have been considered and rejected.",
+      "steps": [
+        {
+          "num": "I",
+          "title": "The call is answered",
+          "body": "Before the second ring. No greeting is used; a greeting delays the matter and has so far assisted no one."
+        },
+        {
+          "num": "II",
+          "title": "The account is heard",
+          "body": "Up to ninety seconds, uninterrupted. Nothing is written down. Everything is remembered, including what the caller omits."
+        },
+        {
+          "num": "III",
+          "title": "The assessment is made",
+          "body": "Usually during the account rather than after it. Deliberation continues only where its absence would be experienced as unsettling."
+        },
+        {
+          "num": "IV",
+          "title": "The finding is delivered",
+          "body": "In one sentence. Repetition is available on request. The wording does not change on repetition."
+        }
+      ],
+      "closing": "The matter is considered resolved when the finding has been delivered, not when the caller agrees with it.",
+      "fig1a": "FIG. 1 — OPERATIONS ROOM, 23:12. ASSESSMENT IN PROGRESS.",
+      "fig1b": "PHOTOGRAPHED WITH PERMISSION. NO CASE MATERIAL IS VISIBLE.",
+      "extract": "CASE FILE EXTRACT · TIMELINE",
+      "timeline": [
+        {
+          "time": "21:47",
+          "event": "Matter reported. Caller audibly standing."
+        },
+        {
+          "time": "21:48",
+          "event": "Call answered. No greeting issued."
+        },
+        {
+          "time": "21:49",
+          "event": "Account commences. Caller now seated."
+        },
+        {
+          "time": "21:51",
+          "event": "Assessment established internally. Not yet communicated."
+        },
+        {
+          "time": "21:53",
+          "event": "Interruption, 47 seconds. Caller retrieves a document that proves to lack relevance."
+        },
+        {
+          "time": "21:55",
+          "event": "Finding delivered. One sentence."
+        },
+        {
+          "time": "21:56",
+          "event": "Finding repeated on request. Wording unchanged."
+        },
+        {
+          "time": "21:58",
+          "event": "Matter closed. Caller reports relief within four minutes."
+        }
+      ],
+      "dur": "TOTAL DURATION: 11 MIN 24 S",
+      "words": "WORDS SPOKEN BY LEIFLINE: 31",
+      "stats": [
+        {
+          "n": "100%",
+          "label": "OF MATTERS ASSESSED\nPERSONALLY"
+        },
+        {
+          "n": "4.1 s",
+          "label": "AVERAGE TIME\nTO ANSWER"
+        },
+        {
+          "n": "0",
+          "label": "FINDINGS REVERSED\nON APPEAL"
+        },
+        {
+          "n": "24/7",
+          "label": "THEORETICAL\nAVAILABILITY"
+        },
+        {
+          "n": "One",
+          "label": "FINAL\nAUTHORITY"
+        }
+      ]
+    },
+    "band": {
+      "a": "FIG. 2 — DUTY DESK, 23:41. RESPONSE IN PROGRESS.",
+      "b": "RESPONSE MEDIUM NOT SHOWN, IN ACCORDANCE WITH STANDING POLICY."
+    },
+    "cases": {
+      "label": "03 — CASE ARCHIVE",
+      "h2": "Six closed matters, published with the consent of those concerned.",
+      "intro": "Names withheld at the participants' request. Details have been reduced to what can be published.",
+      "kSituation": "SITUATION",
+      "kFinding": "FINDING",
+      "kOutcome": "OUTCOME",
+      "more": "OPEN THREE FURTHER MATTERS",
+      "note": "A further 1 412 matters have been closed since 2019. Publication requires consent; most participants decline.",
+      "items": [
+        {
+          "ref": "LL-2026-0482",
+          "place": "SÖDERMALM",
+          "title": "Message seen 22:17. No reply by 02:43.",
+          "situation": "The caller had refreshed the conversation 61 times and was preparing a follow-up message of 340 words.",
+          "finding": "The message was not to be sent.",
+          "outcome": "The message was not sent. A reply arrived at 09:12 the same morning, without further action.",
+          "quote": "“He listened for a minute and then said one sentence. I put the phone down and went to bed for the first time that week.”",
+          "attribution": "PARTICIPANT · SÖDERMALM · 34"
+        },
+        {
+          "ref": "LL-2026-0047",
+          "place": "VASASTAN",
+          "title": "Won the argument. Felt considerably worse.",
+          "situation": "The caller had established beyond reasonable doubt that she was right, and had at the same time lost something she could not put into words.",
+          "finding": "Being right was concluded. The matter was not.",
+          "outcome": "An apology was offered within 48 hours. The relationship remains.",
+          "quote": "“I contacted Leifline to be told I was right. I was told something else, and it was more useful.”",
+          "attribution": "PARTICIPANT · VASASTAN · 41"
+        },
+        {
+          "ref": "LL-2025-1130",
+          "place": "ÖSTERMALM",
+          "title": "Car parked in a manner requiring interpretation.",
+          "situation": "The vehicle stood across two spaces at an angle the caller described as defensible.",
+          "finding": "It was not defensible. The vehicle was to be moved before 07:00.",
+          "outcome": "The vehicle was moved at 06:41. No charge was issued. A lasting improvement in neighbourly relations has been reported.",
+          "quote": "“I called about a parking space. We ended up talking about my father. The car was also moved.”",
+          "attribution": "PARTICIPANT · ÖSTERMALM · 52"
+        },
+        {
+          "ref": "LL-2025-0904",
+          "place": "KUNGSHOLMEN",
+          "title": "Resignation completed 23:50.",
+          "situation": "The caller intended to send her resignation the same evening and described it as “quite well written”.",
+          "finding": "The text was well written and was not to be sent before Thursday.",
+          "outcome": "The text was not sent. Eleven weeks later it was sent to a different employer, then as an application.",
+          "quote": "“Leifline did not tell me to stay. Leifline told me to wait. Those turned out to be two different things.”",
+          "attribution": "PARTICIPANT · KUNGSHOLMEN · 29"
+        },
+        {
+          "ref": "LL-2025-0612",
+          "place": "BROMMA",
+          "title": "Family gathering, seating arrangement, third year of dispute.",
+          "situation": "Two relatives had not been seated at the same table since 2022. The caller was to host nine days later.",
+          "finding": "Both were to be seated at the same table. Neither was to be informed in advance.",
+          "outcome": "Both attended. Both remained seated. Neither commented on the arrangement, which was recorded as a successful outcome.",
+          "quote": "“I asked for a solution. I received an instruction. In hindsight the instruction was the solution.”",
+          "attribution": "PARTICIPANT · BROMMA · 63"
+        },
+        {
+          "ref": "LL-2024-0218",
+          "place": "LOCATION NOT STATED",
+          "title": "The caller was unable to state the nature of the problem.",
+          "situation": "Ninety seconds of account produced no identifiable matter. The caller apologised four times.",
+          "finding": "There was a matter. It was not the one being described.",
+          "outcome": "The correct matter was identified during the eleventh minute. The matter was closed. Follow-up was declined as unnecessary.",
+          "quote": "“I wasn't really calling about anything in particular. He knew what it was about before I did.”",
+          "attribution": "PARTICIPANT · LOCATION NOT STATED"
+        }
+      ]
+    },
+    "press": {
+      "label": "04 — PRESS AND PUBLIC COMMENT",
+      "h2": "Leifline does not seek publicity. Publicity has nevertheless occurred.",
+      "fig3a": "FIG. 3 — PRESS BRIEFING, 14 MARCH. NINE QUESTIONS RECEIVED.",
+      "fig3b": "ONE ANSWERED IN FULL.",
+      "items": [
+        {
+          "outlet": "KVÄLLSPRESSEN",
+          "date": "12 MARCH",
+          "headline": "The man Sweden calls at 02:00",
+          "standfirst": "A four-page feature on the service nobody advertises and whose number everybody seems to have."
+        },
+        {
+          "outlet": "DAGBLADET NORRA",
+          "date": "14 MARCH",
+          "headline": "“Han svarade direkt” — a night on duty",
+          "standfirst": "Our reporter spent eleven hours in the operations room. Nine calls were answered. None lasted longer than twelve minutes."
+        },
+        {
+          "outlet": "NÄRINGSBLADET",
+          "date": "14 MARCH",
+          "headline": "What, precisely, is he holding?",
+          "standfirst": "An analysis of six published photographs raises a question Leifline has repeatedly declined to answer."
+        },
+        {
+          "outlet": "SÖNDAGSMAGASINET",
+          "date": "17 MARCH",
+          "headline": "Relief, measured",
+          "standfirst": "Interviews with fourteen former participants. Twelve stated that they slept the same night. Two politely declined to comment."
+        },
+        {
+          "outlet": "PUBLIC SERVICE",
+          "date": "22 MARCH",
+          "headline": "Documentary: “One sentence”",
+          "standfirst": "Fifty-two minutes. Three callers. The founder appears in six of them and speaks in four."
+        }
+      ],
+      "galleryLabel": "PUBLISHED COVERAGE · MARCH 2026",
+      "galleryTitle": "Read the coverage in full.",
+      "galleryHint": "SELECT A FRONT PAGE TO ENLARGE",
+      "openArticle": "OPEN FULL ARTICLE ↗",
+      "closeArticle": "CLOSE",
+      "features": [
+        {
+          "outlet": "KVÄLLSPRESSEN",
+          "date": "12 MARCH",
+          "headline": "The man Sweden calls at 02:00",
+          "modalId": "press-kvallspressen",
+          "thumb": "/images/press-kvallspressen-thumb.webp",
+          "image": "/images/press-kvallspressen-full.webp",
+          "alt": "Front page of Kvällspressen about Leifline",
+          "openLabel": "Open the Kvällspressen article"
+        },
+        {
+          "outlet": "DAGBLADET NORRA",
+          "date": "14 MARCH",
+          "headline": "‘He answered immediately’ — a night on duty",
+          "modalId": "press-dagbladet-norra",
+          "thumb": "/images/press-dagbladet-norra-thumb.webp",
+          "image": "/images/press-dagbladet-norra-full.webp",
+          "alt": "Front page of Dagbladet Norra about Leifline",
+          "openLabel": "Open the Dagbladet Norra article"
+        },
+        {
+          "outlet": "NÄRINGSBLADET",
+          "date": "14 MARCH",
+          "headline": "What, precisely, is he holding?",
+          "modalId": "press-naringsbladet",
+          "thumb": "/images/press-naringsbladet-thumb.webp",
+          "image": "/images/press-naringsbladet-full.webp",
+          "alt": "Front page of Näringsbladet about Leifline",
+          "openLabel": "Open the Näringsbladet article"
+        }
+      ]
+    },
+    "form": {
+      "label": "05 — REGISTER A MATTER",
+      "h2": "Register a matter for assessment.",
+      "body": "Submitted matters are read by Jonathan. Written matters are never answered in writing.",
+      "emph": "You will be called.",
+      "secA": "SECTION A · NATURE OF THE MATTER",
+      "secB": "SECTION B · CURRENT STATE OF MIND",
+      "secC": "SECTION C · PARTICIPANT DETAILS",
+      "natures": [
+        "Something has happened and nobody will explain what",
+        "I have been given an answer I do not understand",
+        "I thought I was right",
+        "A decision has affected me unexpectedly",
+        "I am about to do something and would like a second assessment",
+        "Other serious matter"
+      ],
+      "severities": [
+        "Mildly confused",
+        "Noticeably disadvantaged",
+        "Deeply frustrated",
+        "Faaaaan",
+        "This requires Jonathan"
+      ],
+      "fName": "NAME",
+      "pName": "Full name",
+      "fPlace": "LOCATION",
+      "pPlace": "District",
+      "fTime": "TIME OF INCIDENT",
+      "pTime": "02:14",
+      "fAccount": "ACCOUNT OF EVENTS",
+      "pAccount": "Describe the matter in your own words. Ninety seconds' worth is sufficient.",
+      "kClass": "PRELIMINARY CLASSIFICATION:",
+      "kHandling": "ESTIMATED HANDLING:",
+      "kRec": "RECOMMENDATION:",
+      "awaitA": "AWAITING SECTION A",
+      "awaitB": "AWAITING SECTION B",
+      "sameEvening": "SAME EVENING",
+      "within": "WITHIN 2–14 BUSINESS MOMENTS",
+      "recA": "COMPLETE SECTION A",
+      "recUrgent": "DO NOT ACT BEFORE YOU ARE CONTACTED",
+      "recNormal": "TAKE NO IRREVERSIBLE STEPS",
+      "ack": "I understand that the finding is issued once and is not subject to negotiation.",
+      "btnReady": "REGISTER MATTER",
+      "btnIncomplete": "COMPLETE SECTIONS A–C TO REGISTER",
+      "btnSending": "TRANSMITTING…",
+      "error": "The matter could not be transmitted and has not been registered. Please try again.",
+      "okLabel": "MATTER REGISTERED",
+      "okBody": "Your matter has been entered into the register and will be assessed personally. You will be called. Do not act on the matter before then.",
+      "okShort": "Ärendet är registrerat. Avvakta besked.",
+      "okAgain": "REGISTER A NEW MATTER",
+      "rStatus": "STATUS",
+      "rStatusV": "REGISTERED",
+      "rPriority": "PRIORITY",
+      "rQueue": "QUEUE",
+      "rQueueV": "POSITION ",
+      "rReviewer": "ASSESSOR",
+      "rReviewerV": "J. L. S.",
+      "rAppeal": "APPEAL",
+      "rAppealV": "TECHNICALLY PRESENT",
+      "prioHigh": "ELEVATED",
+      "prioStd": "STANDARD"
+    },
+    "status": {
+      "label": "06 — CASE STATUS",
+      "h2": "Track an existing matter.",
+      "body": "Enter the reference issued at registration. Status information is provided as a courtesy and does not constitute a finding.",
+      "btn": "LOOK UP",
+      "hint": "Try LL-2026-0482 · LL-2026-0047 · LL-2019-0001",
+      "extract": "REGISTER EXTRACT",
+      "kRef": "REFERENCE",
+      "kReg": "REGISTERED",
+      "kCat": "CATEGORY",
+      "kStatus": "STATUS",
+      "kFinding": "FINDING",
+      "kOutcome": "OUTCOME",
+      "kAppeal": "APPEAL",
+      "empty": [
+        [
+          "REFERENCE",
+          "—"
+        ],
+        [
+          "STATUS",
+          "AWAITING REFERENCE"
+        ],
+        [
+          "NOTE",
+          "Enter a case reference to retrieve an extract from the register."
+        ]
+      ],
+      "generic": [
+        "AWAITING JONATHAN",
+        "UNDER ACTIVE ASSESSMENT",
+        "ESCALATED INTERNALLY",
+        "THE FINDING IS ALREADY OBVIOUS",
+        "REGISTERED"
+      ],
+      "gFinding": "No finding has been issued. This should not be interpreted.",
+      "gOutcome": "Not yet determined.",
+      "gAppeal": "Technically present.",
+      "cases": {
+        "LL-2026-0482": {
+          "cat": "COMMUNICATION, UNRECIPROCATED",
+          "reg": "2026-08-28 02:44",
+          "status": "CLOSED",
+          "finding": "The message was not to be sent.",
+          "outcome": "Complied with. A reply arrived independently at 09:12.",
+          "appeal": "Technically present."
+        },
+        "LL-2026-0047": {
+          "cat": "DISPUTED OUTCOME",
+          "reg": "2026-02-03 19:41",
+          "status": "CLOSED WITHOUT FURTHER EXPLANATION",
+          "finding": "Being right was concluded. The matter was not.",
+          "outcome": "Accepted by the participant on the second reading.",
+          "appeal": "Technically present."
+        },
+        "LL-2026-0065": {
+          "cat": "COMPETITION RULES, DISPUTED",
+          "reg": "2026-06-14 23:09",
+          "status": "CLOSED WITHOUT FURTHER EXPLANATION",
+          "finding": "The rules were clear. The participant stood further from zero after winning the event.",
+          "outcome": "65 points were recorded. No correction was made.",
+          "appeal": "Not applicable."
+        },
+        "LL-2025-1130": {
+          "cat": "VEHICLE POSITIONING",
+          "reg": "2025-11-30 22:52",
+          "status": "CLOSED",
+          "finding": "It was not defensible. The vehicle was to be moved before 07:00.",
+          "outcome": "The vehicle was moved at 06:41.",
+          "appeal": "Technically present."
+        },
+        "LL-2019-0001": {
+          "cat": "FOUNDING MATTER",
+          "reg": "2019-02-11 19:03",
+          "status": "UNDER ACTIVE ASSESSMENT",
+          "finding": "A finding is awaited. Seven years is not unusual for this category of matter.",
+          "outcome": "No outcome recorded to date.",
+          "appeal": "The right of appeal has been withdrawn at the register's request."
+        }
+      }
+    },
+    "about": {
+      "label": "07 — ABOUT LEIFLINE",
+      "h2": "An independent authority for situations that do not resolve themselves.",
+      "p1": "Leifline was founded by Jonathan  in response to a growing need for clear findings in situations characterised by uncertainty, disagreement and confusion that could have been avoided. What began as an informal point of contact has developed into an independent service operating at all hours of the day, in every district, and within every category of matter so far encountered.",
+      "p2": "All matters receive the same personal handling, as there are currently no other employees.",
+      "title": "FOUNDER · HEAD OF INTERPRETATION · FINAL AUTHORITY",
+      "values": [
+        {
+          "k": "CLARITY",
+          "v": "One sentence is sufficient for most problems."
+        },
+        {
+          "k": "CONSISTENCY",
+          "v": "Every finding is consistently regarded as correct."
+        },
+        {
+          "k": "AVAILABILITY",
+          "v": "Leifline is available when Jonathan answers."
+        },
+        {
+          "k": "DISCRETION",
+          "v": "What is said on the line stays on the line, including the parts that were shouted."
+        }
+      ]
+    },
+    "contact": {
+      "h2": "You do not need to understand the situation. You only need to know who to call.",
+      "body": "Leifline is primarily a telephone service. Written matters are received, read and — where deemed appropriate — answered.",
+      "emailLabel": "GENERAL AND URGENT MATTERS",
+      "phoneLabel": "TELEPHONE",
+      "phone": "Number issued on registration",
+      "phoneNote": "The Leifline number is provided to participants with an active matter. It is not published.",
+      "hours": [
+        {
+          "k": "MON–FRI",
+          "v": "AT JONATHAN'S DISCRETION"
+        },
+        {
+          "k": "WEEKENDS",
+          "v": "INCIDENT-DEPENDENT"
+        },
+        {
+          "k": "URGENT",
+          "v": "DEFINE “URGENT”"
+        },
+        {
+          "k": "OFFICE",
+          "v": "STOCKHOLM · VISITS BY DECISION ONLY"
+        }
+      ]
+    },
+    "footer": {
+      "place": "STOCKHOLM · SVERIGE",
+      "est": "ESTABLISHED 2019",
+      "l1": "SERVICES",
+      "l2": "METHOD",
+      "l3": "CASE FILES",
+      "l4": "PRESS",
+      "disclaimer": "Leifline is a fictional support service and is not an emergency service. In a genuine emergency, call 112.",
+      "copy": "© 2026 LEIFLINE · ALL FINDINGS RESERVED",
+      "docver": "DOCUMENT VERSION 1.7 · FACT-CHECKED"
+    }
+  },
+  "sv": {
+    "meta": {
+      "lang": "sv",
+      "title": "Leifline — Oberoende stöd och problembedömning",
+      "desc": "Oberoende vägledning när en situation har slutat vara rimlig. Stockholm, sedan 2019. Genomsnittlig svarstid: 4,1 sekunder.",
+      "ogTitle": "Leifline — Problem kommer sällan med instruktioner.",
+      "url": "https://leifline.com/sv/"
+    },
+    "nav": {
+      "services": "Tjänster",
+      "method": "Metod",
+      "cases": "Ärenden",
+      "press": "Press",
+      "submit": "Registrera ärende",
+      "about": "Om Leifline",
+      "contact": "KONTAKT"
+    },
+    "navShort": {
+      "services": "Tjänster",
+      "method": "Metod",
+      "cases": "Ärenden",
+      "press": "Press",
+      "submit": "Registrera",
+      "about": "Om",
+      "contact": "KONTAKT"
+    },
+    "hero": {
+      "kicker": "GRUNDAT 2019 · STOCKHOLM · OBEROENDE",
+      "h1": "Problem kommer sällan med instruktioner.",
+      "body": "Leifline erbjuder lugn, oberoende vägledning när en situation har slutat vara rimlig och människorna omkring dig har slut på förklaringar.",
+      "cta1": "KONTAKTA LEIFLINE",
+      "cta2": "LÄS ÄRENDEN",
+      "status": "LEIFLINE ÄR I DRIFT",
+      "avg": "GENOMSNITTLIG SVARSTID: 4,1 S",
+      "conditions": "FÖRHÅLLANDEN: "
+    },
+    "load": {
+      "title": "DRIFTBELASTNING · LÖPANDE REGISTER",
+      "ongoing": "ÄRENDEN UNDER\nHANDLÄGGNING",
+      "closed": "ÄRENDEN AVSLUTADE\nI DAG",
+      "queue": "AVVAKTAR\nBEDÖMNING",
+      "since": "SEDAN SENAST AVSLUTADE\nÄRENDE · MIN:SEK",
+      "oldest": "DYGN SEDAN ÄLDSTA ÖPPNA\nÄRENDET REGISTRERADES",
+      "note": "UPPDATERAS LÖPANDE. UPPGIFTERNA ÄR PRELIMINÄRA OCH SKA INTE TOLKAS. SVARSMEDIETS TILLGÄNGLIGHET: 100,0 %."
+    },
+    "svc": {
+      "label": "01 — VAD VI HANTERAR",
+      "h2": "De flesta ärenden når Leifline först efter att samtliga rimliga förklaringar redan har prövats.",
+      "items": [
+        {
+          "code": "S/01",
+          "title": "Oförklarade händelser",
+          "body": "Något har hänt. Ingen inblandad kan förklara varför, och situationen förbättras inte av sig själv."
+        },
+        {
+          "code": "S/02",
+          "title": "Omstridda utfall",
+          "body": "Du anser att du har rätt. Motparten är ovanligt säker på motsatsen. Ett ställningstagande krävs."
+        },
+        {
+          "code": "S/03",
+          "title": "Beslut under småtimmarna",
+          "body": "Frågor som känns hanterbara kl. 14.00 och ohanterliga kl. 02.14. Leifline upprätthåller full kapacitet vid båda tidpunkterna."
+        },
+        {
+          "code": "S/04",
+          "title": "Förebyggande bedömning",
+          "body": "Innan du svarar, skickar, köper, säger upp dig eller firar kan en preliminär bedömning begäras."
+        }
+      ],
+      "blocks": [
+        {
+          "title": "OMFATTNING",
+          "body": "Privata, yrkesmässiga, romantiska, fordonsrelaterade, administrativa och oklassificerbara frågor. Inget ärende har hittills avvisats med hänvisning till att det varit för litet."
+        },
+        {
+          "title": "VAD VI INTE GÖR",
+          "body": "Terapi, juridisk representation, medling eller utdragna resonemang. Leifline lämnar besked. Beskedet är tjänsten."
+        },
+        {
+          "title": "SVARSMEDIUM",
+          "body": "Proprietärt. Leifline lämnar inte uppgifter om det instrument som används för att svara och har aldrig varit skyldigt att göra det. Tillgänglighet under senaste rapportperioden: 100,0 %."
+        }
+      ]
+    },
+    "method": {
+      "label": "02 — METODEN",
+      "h2": "Samtliga ärenden hanteras på exakt samma sätt, oavsett hur ovanligt den som ringer uppfattar ärendet.",
+      "intro": "Förfarandet nedan har inte reviderats sedan 2019. Förslag om att förkorta det har behandlats och avslagits.",
+      "steps": [
+        {
+          "num": "I",
+          "title": "Samtalet besvaras",
+          "body": "Före den andra signalen. Ingen hälsningsfras används; en hälsningsfras fördröjer ärendet och har hittills inte hjälpt någon."
+        },
+        {
+          "num": "II",
+          "title": "Redogörelsen hörs",
+          "body": "Högst nittio sekunder, utan avbrott. Ingenting antecknas. Ingenting glöms, inte heller det som den som ringer utelämnar."
+        },
+        {
+          "num": "III",
+          "title": "Bedömningen görs",
+          "body": "Vanligen under redogörelsen snarare än efter den. Övervägandet fortsätter endast när frånvaron av ett övervägande skulle upplevas som oroande."
+        },
+        {
+          "num": "IV",
+          "title": "Beskedet lämnas",
+          "body": "I en mening. Upprepning kan ske på begäran. Formuleringen ändras inte vid upprepning."
+        }
+      ],
+      "closing": "Ärendet betraktas som löst när beskedet har lämnats, inte när den som ringt instämmer i det.",
+      "fig1a": "FIG. 1 — LEDNINGSCENTRAL, 23.12. BEDÖMNING PÅGÅR.",
+      "fig1b": "FOTOGRAFERAD MED TILLSTÅND. INGET ÄRENDEMATERIAL ÄR SYNLIGT.",
+      "extract": "ÄRENDEUTDRAG · TIDSFÖRLOPP",
+      "timeline": [
+        {
+          "time": "21.47",
+          "event": "Ärendet anmält. Den som ringer hörs vara stående."
+        },
+        {
+          "time": "21.48",
+          "event": "Samtalet besvarat. Ingen hälsningsfras lämnad."
+        },
+        {
+          "time": "21.49",
+          "event": "Redogörelsen inleds. Den som ringer sitter nu ned."
+        },
+        {
+          "time": "21.51",
+          "event": "Bedömning internt fastställd. Ännu inte kommunicerad."
+        },
+        {
+          "time": "21.53",
+          "event": "Avbrott, 47 sekunder. Den som ringer hämtar ett dokument som visar sig sakna relevans."
+        },
+        {
+          "time": "21.55",
+          "event": "Besked lämnat. En mening."
+        },
+        {
+          "time": "21.56",
+          "event": "Besked upprepat på begäran. Formuleringen oförändrad."
+        },
+        {
+          "time": "21.58",
+          "event": "Ärendet avslutat. Den som ringde uppger lättnad inom fyra minuter."
+        }
+      ],
+      "dur": "TOTAL VARAKTIGHET: 11 MIN 24 S",
+      "words": "ORD UTTALADE AV LEIFLINE: 31",
+      "stats": [
+        {
+          "n": "100 %",
+          "label": "AV ÄRENDENA BEDÖMDA\nPERSONLIGEN"
+        },
+        {
+          "n": "4,1 s",
+          "label": "GENOMSNITTLIG\nSVARSTID"
+        },
+        {
+          "n": "0",
+          "label": "BESKED ÄNDRADE\nEFTER ÖVERKLAGANDE"
+        },
+        {
+          "n": "24/7",
+          "label": "TEORETISK\nTILLGÄNGLIGHET"
+        },
+        {
+          "n": "En",
+          "label": "SLUTLIG\nINSTANS"
+        }
+      ]
+    },
+    "band": {
+      "a": "FIG. 2 — JOURBORD, 23.41. SVAR PÅGÅR.",
+      "b": "SVARSMEDIUM EJ VISAT I ENLIGHET MED GÄLLANDE RIKTLINJER."
+    },
+    "cases": {
+      "label": "03 — ÄRENDEARKIV",
+      "h2": "Sex avslutade ärenden, publicerade med de berördas samtycke.",
+      "intro": "Namn har utelämnats på deltagarnas begäran. Detaljerna har begränsats till vad som kan publiceras.",
+      "kSituation": "SITUATION",
+      "kFinding": "BESKED",
+      "kOutcome": "UTFALL",
+      "more": "ÖPPNA YTTERLIGARE TRE ÄRENDEN",
+      "note": "Ytterligare 1 412 ärenden har avslutats sedan 2019. Publicering kräver samtycke; de flesta deltagare avstår.",
+      "items": [
+        {
+          "ref": "LL-2026-0482",
+          "place": "SÖDERMALM",
+          "title": "Meddelande läst 22.17. Inget svar 02.43.",
+          "situation": "Den som ringde hade uppdaterat konversationen 61 gånger och förberedde ett uppföljningsmeddelande på 340 ord.",
+          "finding": "Meddelandet skulle inte skickas.",
+          "outcome": "Meddelandet skickades inte. Svar inkom 09.12 samma morgon, utan ytterligare åtgärd.",
+          "quote": "”Han lyssnade i en minut och sa sedan en mening. Jag lade på och gick och lade mig för första gången den veckan.”",
+          "attribution": "DELTAGARE · SÖDERMALM · 34"
+        },
+        {
+          "ref": "LL-2026-0047",
+          "place": "VASASTAN",
+          "title": "Vann diskussionen. Mådde avsevärt sämre.",
+          "situation": "Den som ringde hade fastställt bortom rimligt tvivel att hon hade rätt, och hade samtidigt förlorat något hon inte kunde sätta ord på.",
+          "finding": "Frågan om vem som hade rätt var avgjord. Ärendet var det inte.",
+          "outcome": "Ursäkt lämnades inom 48 timmar. Relationen kvarstår.",
+          "quote": "”Jag kontaktade Leifline för att få höra att jag hade rätt. Jag fick höra något annat, och det var mer användbart.”",
+          "attribution": "DELTAGARE · VASASTAN · 41"
+        },
+        {
+          "ref": "LL-2025-1130",
+          "place": "ÖSTERMALM",
+          "title": "Bil parkerad på ett sätt som krävde tolkning.",
+          "situation": "Fordonet stod över två platser i en vinkel som den som ringde beskrev som försvarbar.",
+          "finding": "Parkeringen var inte försvarbar. Fordonet skulle flyttas före 07.00.",
+          "outcome": "Fordonet flyttades 06.41. Ingen avgift utfärdades. Ärendet avslutades utan ytterligare åtgärd.",
+          "quote": "”Bilen flyttades före angiven tid. Någon ytterligare kontakt behövdes inte.”",
+          "attribution": "DELTAGARE · ÖSTERMALM · 52"
+        },
+        {
+          "ref": "LL-2025-0904",
+          "place": "KUNGSHOLMEN",
+          "title": "Uppsägning färdigställd 23.50.",
+          "situation": "Den som ringde avsåg att skicka sin uppsägning samma kväll och beskrev den som ”ganska välskriven”.",
+          "finding": "Texten var välskriven och skulle inte skickas före torsdag.",
+          "outcome": "Uppsägningen skickades inte. Elva veckor senare användes delar av texten i en ansökan till en annan arbetsgivare.",
+          "quote": "”Leifline sa inte åt mig att stanna. Leifline sa åt mig att vänta. Det visade sig vara två olika saker.”",
+          "attribution": "DELTAGARE · KUNGSHOLMEN · 29"
+        },
+        {
+          "ref": "LL-2025-0612",
+          "place": "BROMMA",
+          "title": "Familjesammankomst, bordsplacering, tredje året av tvist.",
+          "situation": "Två släktingar hade inte placerats vid samma bord sedan 2022. Den som ringde skulle vara värd nio dagar senare.",
+          "finding": "Båda skulle placeras vid samma bord. Ingen av dem skulle informeras i förväg.",
+          "outcome": "Båda kom. Båda satt kvar. Ingen kommenterade placeringen, vilket registrerades som ett lyckat utfall.",
+          "quote": "”Vi följde bordsplaceringen. Sammankomsten genomfördes som planerat.”",
+          "attribution": "DELTAGARE · BROMMA · 63"
+        },
+        {
+          "ref": "LL-2024-0218",
+          "place": "PLATS EJ ANGIVEN",
+          "title": "Den som ringde kunde inte ange problemets art.",
+          "situation": "Nittio sekunders redogörelse resulterade inte i något identifierbart ärende. Den som ringde bad om ursäkt fyra gånger.",
+          "finding": "Det fanns ett ärende. Det var inte det som beskrevs.",
+          "outcome": "Rätt ärende identifierades under den elfte minuten. Ärendet avslutades. Uppföljning avböjdes som obehövlig.",
+          "quote": "”Jag ringde egentligen inte om något särskilt. Han visste vad det handlade om innan jag gjorde det.”",
+          "attribution": "DELTAGARE · PLATS EJ ANGIVEN"
+        }
+      ]
+    },
+    "press": {
+      "label": "04 — PRESS OCH UTTALANDEN",
+      "h2": "Leifline eftersträvar inte publicitet. Publicitet har trots detta förekommit.",
+      "fig3a": "FIG. 3 — PRESSTRÄFF, 14 MARS. NIO FRÅGOR MOTTAGNA.",
+      "fig3b": "EN BESVARAD I SIN HELHET.",
+      "items": [
+        {
+          "outlet": "KVÄLLSPRESSEN",
+          "date": "12 MARS",
+          "headline": "Mannen Sverige ringer klockan 02.00",
+          "standfirst": "Ett fyrsidigt reportage om tjänsten som ingen annonserar om och vars nummer alla tycks ha."
+        },
+        {
+          "outlet": "DAGBLADET NORRA",
+          "date": "14 MARS",
+          "headline": "”Han svarade direkt” — en natt på jouren",
+          "standfirst": "Vår reporter tillbringade elva timmar i ledningscentralen. Nio samtal besvarades. Inget varade längre än tolv minuter."
+        },
+        {
+          "outlet": "NÄRINGSBLADET",
+          "date": "14 MARS",
+          "headline": "Vad är det egentligen han håller i?",
+          "standfirst": "En analys av sex publicerade fotografier väcker en fråga som Leifline vid upprepade tillfällen har avböjt att besvara."
+        },
+        {
+          "outlet": "SÖNDAGSMAGASINET",
+          "date": "17 MARS",
+          "headline": "Lättnad, uppmätt",
+          "standfirst": "Intervjuer med fjorton tidigare deltagare. Tolv uppgav att de sov samma natt. Två avböjde vänligt att kommentera."
+        },
+        {
+          "outlet": "PUBLIC SERVICE",
+          "date": "22 MARS",
+          "headline": "Dokumentär: ”En mening”",
+          "standfirst": "Femtiotvå minuter. Tre uppringare. Grundaren syns i bild under sex minuter och talar under fyra."
+        }
+      ],
+      "galleryLabel": "PUBLICERADE REPORTAGE · MARS 2026",
+      "galleryTitle": "Läs reportagen i sin helhet.",
+      "galleryHint": "VÄLJ EN FÖRSTASIDA FÖR ATT FÖRSTORA",
+      "openArticle": "ÖPPNA HELA REPORTAGET ↗",
+      "closeArticle": "STÄNG",
+      "features": [
+        {
+          "outlet": "KVÄLLSPRESSEN",
+          "date": "12 MARS",
+          "headline": "Mannen Sverige ringer klockan 02.00",
+          "modalId": "press-kvallspressen",
+          "thumb": "/images/press-kvallspressen-thumb.webp",
+          "image": "/images/press-kvallspressen-full.webp",
+          "alt": "Kvällspressens förstasida om Leifline",
+          "openLabel": "Öppna reportaget från Kvällspressen"
+        },
+        {
+          "outlet": "DAGBLADET NORRA",
+          "date": "14 MARS",
+          "headline": "”Han svarade direkt” — en natt på jouren",
+          "modalId": "press-dagbladet-norra",
+          "thumb": "/images/press-dagbladet-norra-thumb.webp",
+          "image": "/images/press-dagbladet-norra-full.webp",
+          "alt": "Dagbladet Norras förstasida om Leifline",
+          "openLabel": "Öppna reportaget från Dagbladet Norra"
+        },
+        {
+          "outlet": "NÄRINGSBLADET",
+          "date": "14 MARS",
+          "headline": "Vad är det egentligen han håller i?",
+          "modalId": "press-naringsbladet",
+          "thumb": "/images/press-naringsbladet-thumb.webp",
+          "image": "/images/press-naringsbladet-full.webp",
+          "alt": "Näringsbladets förstasida om Leifline",
+          "openLabel": "Öppna reportaget från Näringsbladet"
+        }
+      ]
+    },
+    "form": {
+      "label": "05 — REGISTRERA ETT ÄRENDE",
+      "h2": "Registrera ett ärende för bedömning.",
+      "body": "Inskickade ärenden läses av Jonathan. Skriftliga ärenden besvaras aldrig skriftligen.",
+      "emph": "Du blir uppringd.",
+      "secA": "AVSNITT A · ÄRENDETS ART",
+      "secB": "AVSNITT B · NUVARANDE SINNESTILLSTÅND",
+      "secC": "AVSNITT C · UPPGIFTER OM DELTAGAREN",
+      "natures": [
+        "Något har hänt och ingen vill förklara vad",
+        "Jag har fått ett svar som jag inte förstår",
+        "Jag trodde att jag hade rätt",
+        "Ett beslut har påverkat mig på ett oväntat sätt",
+        "Jag är på väg att göra något och vill ha en andra bedömning",
+        "Annat allvarligt ärende"
+      ],
+      "severities": [
+        "Lätt förvirrad",
+        "Märkbart missgynnad",
+        "Djupt frustrerad",
+        "Faaaaan",
+        "Det här kräver Jonathan"
+      ],
+      "fName": "NAMN",
+      "pName": "För- och efternamn",
+      "fPlace": "PLATS",
+      "pPlace": "Stadsdel",
+      "fTime": "TIDPUNKT FÖR HÄNDELSEN",
+      "pTime": "02.14",
+      "fAccount": "REDOGÖRELSE FÖR HÄNDELSEN",
+      "pAccount": "Beskriv ärendet med egna ord. En redogörelse motsvarande nittio sekunder är tillräcklig.",
+      "kClass": "PRELIMINÄR KLASSIFICERING:",
+      "kHandling": "BERÄKNAD HANDLÄGGNING:",
+      "kRec": "REKOMMENDATION:",
+      "awaitA": "AVVAKTAR AVSNITT A",
+      "awaitB": "AVVAKTAR AVSNITT B",
+      "sameEvening": "SAMMA KVÄLL",
+      "within": "INOM 2–14 HANDLÄGGNINGSÖGONBLICK",
+      "recA": "FYLL I AVSNITT A",
+      "recUrgent": "AGERA INTE INNAN DU BLIVIT KONTAKTAD",
+      "recNormal": "VIDTA INGA OÅTERKALLELIGA ÅTGÄRDER",
+      "ack": "Jag är medveten om att beskedet lämnas en gång och inte är föremål för förhandling.",
+      "btnReady": "REGISTRERA ÄRENDE",
+      "btnIncomplete": "FYLL I AVSNITT A–C FÖR ATT REGISTRERA",
+      "btnSending": "ÖVERFÖR…",
+      "error": "Ärendet kunde inte överföras och har inte registrerats. Försök igen.",
+      "okLabel": "ÄRENDE REGISTRERAT",
+      "okBody": "Ditt ärende har förts in i registret och kommer att granskas personligen. Du blir uppringd. Agera inte i ärendet innan dess.",
+      "okShort": "Ärendet är registrerat. Avvakta besked.",
+      "okAgain": "REGISTRERA ETT NYTT ÄRENDE",
+      "rStatus": "STATUS",
+      "rStatusV": "REGISTRERAT",
+      "rPriority": "PRIORITET",
+      "rQueue": "KÖ",
+      "rQueueV": "PLATS ",
+      "rReviewer": "HANDLÄGGARE",
+      "rReviewerV": "J. L. SVENSSON",
+      "rAppeal": "ÖVERKLAGANDERÄTT",
+      "rAppealV": "TEKNISKT SETT",
+      "prioHigh": "FÖRHÖJD",
+      "prioStd": "NORMAL"
+    },
+    "status": {
+      "label": "06 — ÄRENDESTATUS",
+      "h2": "Följ ett pågående ärende.",
+      "body": "Ange den referens som utfärdades vid registreringen. Statusuppgifter lämnas som en upplysning och utgör inte ett besked.",
+      "btn": "SÖK",
+      "hint": "Prova LL-2026-0482 · LL-2026-0047 · LL-2019-0001",
+      "extract": "REGISTERUTDRAG",
+      "kRef": "REFERENS",
+      "kReg": "REGISTRERAT",
+      "kCat": "KATEGORI",
+      "kStatus": "STATUS",
+      "kFinding": "BESKED",
+      "kOutcome": "UTFALL",
+      "kAppeal": "ÖVERKLAGANDERÄTT",
+      "empty": [
+        [
+          "REFERENS",
+          "—"
+        ],
+        [
+          "STATUS",
+          "AVVAKTAR REFERENS"
+        ],
+        [
+          "UPPLYSNING",
+          "Ange en ärendereferens för att hämta ett utdrag ur registret."
+        ]
+      ],
+      "generic": [
+        "AVVAKTAR JONATHAN",
+        "UNDER AKTIV BEDÖMNING",
+        "ESKALERAT INTERNT",
+        "BESKEDET ÄR REDAN UPPENBART",
+        "REGISTRERAT"
+      ],
+      "gFinding": "Inget besked har lämnats. Detta ska inte tolkas.",
+      "gOutcome": "Ännu inte fastställt.",
+      "gAppeal": "Tekniskt sett.",
+      "cases": {
+        "LL-2026-0482": {
+          "cat": "KOMMUNIKATION, OBESVARAD",
+          "reg": "2026-08-28 02.44",
+          "status": "AVSLUTAT",
+          "finding": "Meddelandet skulle inte skickas.",
+          "outcome": "Beskedet följdes. Svar inkom utan ytterligare åtgärd kl. 09.12.",
+          "appeal": "Tekniskt sett."
+        },
+        "LL-2026-0047": {
+          "cat": "OMSTRITT UTFALL",
+          "reg": "2026-02-03 19.41",
+          "status": "AVSLUTAT UTAN YTTERLIGARE FÖRKLARING",
+          "finding": "Frågan om vem som hade rätt var avgjord. Ärendet var det inte.",
+          "outcome": "Godtogs av deltagaren vid andra genomläsningen.",
+          "appeal": "Tekniskt sett."
+        },
+        "LL-2026-0065": {
+          "cat": "TÄVLINGSREGELVERK, OMTVISTAT",
+          "reg": "2026-06-14 23.09",
+          "status": "AVSLUTAT UTAN YTTERLIGARE FÖRKLARING",
+          "finding": "Reglerna var tydliga. Deltagaren låg längre från noll efter vunnet moment.",
+          "outcome": "65 poäng registrerades. Ingen rättelse gjordes.",
+          "appeal": "Ej tillämpligt."
+        },
+        "LL-2025-1130": {
+          "cat": "FORDONSPLACERING",
+          "reg": "2025-11-30 22.52",
+          "status": "AVSLUTAT",
+          "finding": "Parkeringen var inte försvarbar. Fordonet skulle flyttas före 07.00.",
+          "outcome": "Fordonet flyttades 06.41.",
+          "appeal": "Tekniskt sett."
+        },
+        "LL-2019-0001": {
+          "cat": "ÄRENDE VID VERKSAMHETENS GRUNDANDE",
+          "reg": "2019-02-11 19.03",
+          "status": "UNDER AKTIV BEDÖMNING",
+          "finding": "Besked avvaktas. Sju år är inte ovanligt för denna ärendekategori.",
+          "outcome": "Inget utfall registrerat hittills.",
+          "appeal": "Överklaganderätten har återkallats på registrets begäran."
+        }
+      }
+    },
+    "about": {
+      "label": "07 — OM LEIFLINE",
+      "h2": "En oberoende instans för situationer som inte löser sig själva.",
+      "p1": "Leifline grundades av Jonathan som svar på ett växande behov av tydliga besked i situationer präglade av osäkerhet, oenighet och förvirring som hade kunnat undvikas. Det som började som en informell kontaktpunkt har utvecklats till en oberoende tjänst med verksamhet alla tider på dygnet, i samtliga stadsdelar och inom varje hittills förekommande ärendekategori.",
+      "p2": "Samtliga ärenden får samma personliga handläggning, eftersom det för närvarande inte finns några andra anställda.",
+      "title": "GRUNDARE · TOLKNINGSCHEF · SLUTLIG INSTANS",
+      "values": [
+        {
+          "k": "TYDLIGHET",
+          "v": "En mening räcker för de flesta problem."
+        },
+        {
+          "k": "KONSEKVENS",
+          "v": "Varje besked betraktas konsekvent som korrekt."
+        },
+        {
+          "k": "TILLGÄNGLIGHET",
+          "v": "Leifline är tillgängligt när Jonathan svarar."
+        },
+        {
+          "k": "DISKRETION",
+          "v": "Det som sägs i samtalet stannar i samtalet, även det som ropas."
+        }
+      ]
+    },
+    "contact": {
+      "h2": "Du behöver inte förstå situationen. Du behöver bara veta vem du ska ringa.",
+      "body": "Leifline är i första hand en telefontjänst. Skriftliga ärenden tas emot, läses och — där så bedöms lämpligt — besvaras.",
+      "emailLabel": "ALLMÄNNA OCH BRÅDSKANDE ÄRENDEN",
+      "phoneLabel": "TELEFON",
+      "phone": "Telefonnummer lämnas vid registrering",
+      "phoneNote": "Leiflines nummer lämnas till deltagare med ett pågående ärende. Det publiceras inte.",
+      "hours": [
+        {
+          "k": "MÅN–FRE",
+          "v": "ENLIGT JONATHANS BEDÖMNING"
+        },
+        {
+          "k": "HELGER",
+          "v": "BEROENDE PÅ HÄNDELSEFÖRLOPP"
+        },
+        {
+          "k": "BRÅDSKANDE",
+          "v": "DEFINIERA ”BRÅDSKANDE”"
+        },
+        {
+          "k": "KONTOR",
+          "v": "STOCKHOLM · BESÖK ENDAST EFTER BESLUT"
+        }
+      ]
+    },
+    "footer": {
+      "place": "STOCKHOLM · SVERIGE",
+      "est": "GRUNDAT 2019",
+      "l1": "TJÄNSTER",
+      "l2": "METOD",
+      "l3": "ÄRENDEN",
+      "l4": "PRESS",
+      "disclaimer": "Leifline är en fiktiv stödtjänst och är inte en larmtjänst. Vid en verklig nödsituation, ring 112.",
+      "copy": "© 2026 LEIFLINE · SAMTLIGA BESKED FÖRBEHÅLLNA",
+      "docver": "DOKUMENTVERSION 1.7 · SAKGRANSKAD"
+    }
+  }
+}

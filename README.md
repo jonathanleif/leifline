@@ -1,32 +1,32 @@
-# Leifline — publishing notes
+# Leifline
 
 ## Source of truth
-`Leifline.dc.html` in the project root. Never edit `site/index.html` by hand — it is compiled.
+The website is now a conventional static build. Source files live in `src/` and
+shared browser assets live in `assets/`.
 
-## Upload to GitHub Pages (jonathanleif/leifline)
-Upload the contents of `site/` to the repo root:
+To rebuild the English and Swedish pages after changing `src/content.json` or
+`src/build.mjs`:
 
-```
-index.html          ← English (default international edition)
-sv/index.html       ← Swedish edition, served at /sv
-images/og-leifline.png
-images/favicon.svg
+```bash
+node src/build.mjs
 ```
 
-Photography and fonts are inlined in each index.html. The two files are identical;
-`/sv/` serves Swedish because the edition is chosen from the URL path.
+The generated pages are `index.html`, `sv/index.html`, `privacy/index.html`, and
+`sv/integritet/index.html`. Unlike the previous exported bundle, all public copy
+is present in the initial HTML and can be read without JavaScript.
 
 ## Language selection
-Priority order:
-1. `?lang=sv` / `?lang=en` (the SV / EN selector in the header; the choice is remembered)
-2. a `/sv` path segment
-3. previously remembered choice
-4. English
-
-There is deliberately no redirect based on browser language.
+`/` is the canonical English edition and `/sv/` is the canonical Swedish edition.
+The language selector uses ordinary links, so it also works without JavaScript.
 
 ## Form
-Posts to the Google Apps Script endpoint. Payload: caseId, nature, severity, name,
-place, time, account, acknowledged, language, natureCode, severityCode, classification,
-source, website. `natureCode` (N1–N6) and `severityCode` (S1–S5) are stable across both
-languages, so Swedish and English submissions stay in the same data categories.
+The form submits to Google Apps Script through a hidden iframe. The server must
+generate the case ID and send a verified `postMessage` response before the website
+shows a successful registration. See `apps-script/Code.gs.example` for the required
+backend behavior. Do not merge the rebuild until the deployed Apps Script supports
+that response.
+
+## Search indexing
+`robots.txt`, `sitemap.xml`, canonical links, bilingual `hreflang` links, social
+metadata, and Organization structured data are included. Add the domain and submit
+the sitemap in Google Search Console after deployment.
